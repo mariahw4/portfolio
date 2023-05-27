@@ -1,0 +1,79 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.h2{
+  scroll-margin-top: 20vh;
+}
+
+h5{
+  background-color: navy;
+  color: white;
+}
+.navbar-img{
+  max-height: 90px;
+}
+.headshot-img{
+  max-width: 25%;
+  height: auto;
+  margin: 0px 35%;
+}
+.container {
+  border: 2px solid navy;
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+}
+/* .nav-link {
+  width: fit-content;
+} */
+
+.card {
+  padding: 1rem;
+  margin: 1rem;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.navbar-justify {
+  justify-content: end;
+}
+
+.btn {
+  padding: 4px;
+  margin: 4px;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.contact-btns {
+  display: flex;
+  justify-content: space-around;
+}
+
+form {
+  border: 1px solid black;
+  max-width: 80%;
+  margin: 0px 10%;
+  padding: 1rem;
+}
+footer {
+  text-align: center;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
